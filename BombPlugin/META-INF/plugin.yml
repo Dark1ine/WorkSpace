@@ -1,5 +1,5 @@
 name: BombPlugin
-main: com.mcsurvivalisland.bombplugin
+main: com.mcsurvivalisland.bombplugin.BombPlugin
 version: 1.0.4
 commands:
     bomb:
