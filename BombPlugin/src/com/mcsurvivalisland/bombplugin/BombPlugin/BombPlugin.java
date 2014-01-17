@@ -35,7 +35,7 @@ public class BombPlugin extends JavaPlugin {
                     if(inventory.contains(itemstack)) {
                         inventory.remove(itemstack); //Checks for 5 TNT and removes it
                         player.addPotionEffect(new PotionEffect(PotionEffectType.DAMAGE_RESISTANCE, 4, 100)); //Adds resistance 100 for 4 ticks.
-                        player.getWorld().createExplosion(player.getLocation(), 4); //Creates the explosion at the player's location.
+                        player.getServer().getWorld().createExplosion(player.getLocation(), 4); //Creates the explosion at the player's location.
                         cooldown.add(player.getName()); //Adds the player to the cooldown array.
                         Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() { //Creates a delayed task to remove the player from the cooldown array after 5 minutes.
                             public void run() {
