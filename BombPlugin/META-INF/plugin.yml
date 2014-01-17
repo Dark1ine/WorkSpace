@@ -6,4 +6,4 @@ commands:
         description: Creates an explosion equivalent to 1 TNT at the cost of 5 TNT.
         usage: /<command>
         permission: BombPlugin.bomb
-        permission-message: Donate to gain access to this command! http://mcsurvivalisland.buycraft.net/
+        permission-message: Donate to gain access to this command!
