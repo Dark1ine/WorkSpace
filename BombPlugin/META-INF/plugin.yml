@@ -3,7 +3,7 @@ main: com.mcsurvivalisland.bombplugin
 version: 1.0.4
 commands:
     bomb:
-	    description: Creates an explosion equivalent to 1 TNT at the cost of 5 TNT.
-		usage: /<command>
-		permission: BombPlugin.bomb
-		permission-message: Donate to gain access to this command! http://mcsurvivalisland.buycraft.net/
+        description: Creates an explosion equivalent to 1 TNT at the cost of 5 TNT.
+        usage: /<command>
+        permission: BombPlugin.bomb
+        permission-message: Donate to gain access to this command! http://mcsurvivalisland.buycraft.net/
